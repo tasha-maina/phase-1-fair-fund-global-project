@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fair Fund Global - Loan Application</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Fair Fund Global</h1>
+    <p>Your trusted partner in financial support</p>
+  </header>
+
+  <main class="container">
+    <form id="loanForm">
+      <h2>Loan Application</h2>
+      <p>Note: A 5% evaluation fee is required upfront.</p>
+
+      <input type="text" id="fullName" placeholder="Full Name" required />
+      <input type="email" id="email" placeholder="Email Address" required />
+      <input type="number" id="amount" placeholder="Loan Amount (KES)" required />
+
+      <select id="duration" required>
+        <option value="" disabled selected>Repayment Duration (months)</option>
+        <option value="3">3 months</option>
+        <option value="6">6 months</option>
+        <option value="9">9 months</option>
+        <option value="12">12 months</option>
+      </select>
+
+      <label>Are you employed?</label>
+      <select id="employed" required>
+        <option value="" disabled selected>Select</option>
+        <option value="yes">Yes</option>
+        <option value="no">No</option>
+      </select>
+
+      <label>Is your income stable?</label>
+      <select id="stableIncome" required>
+        <option value="" disabled selected>Select</option>
+        <option value="yes">Yes</option>
+        <option value="no">No</option>
+      </select>
+
+      <label>Have you repaid past loans?</label>
+      <select id="previousLoans" required>
+        <option value="" disabled selected>Select</option>
+        <option value="yes">Yes</option>
+        <option value="no">No</option>
+      </select>
+
+      <button type="submit">Apply Now</button>
+      <div id="error" class="error"></div>
+    </form>
+
+    <div id="result" class="result-box"></div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

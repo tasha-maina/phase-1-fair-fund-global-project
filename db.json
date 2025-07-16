@@ -1,0 +1,35 @@
+{
+  "applications": [
+    {
+      "id": "1",
+      "fullName": "Jane Mugambi",
+      "amountRequested": 100000,
+      "registrationFee": 5000,
+      "status": "Approved"
+    },
+    {
+      "id": "eef7",
+      "fullName": "mary",
+      "email": "mary@gmail.com",
+      "amount": 500000,
+      "duration": 6,
+      "evaluationFee": 25000,
+      "monthlyRepayment": 5000,
+      "trustLevel": "High",
+      "status": "Rejected",
+      "submittedAt": "2025-07-16T17:27:22.539Z"
+    },
+    {
+      "id": "7ea0",
+      "fullName": "paul nyarae",
+      "email": "paulnyarae@gmail.com",
+      "amount": 500000,
+      "duration": 3,
+      "evaluationFee": 25000,
+      "monthlyRepayment": 5000,
+      "trustLevel": "High",
+      "status": "Approved",
+      "submittedAt": "2025-07-16T19:48:27.927Z"
+    }
+  ]
+}
